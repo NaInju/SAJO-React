@@ -138,7 +138,7 @@ function MainVisual() {
               href="https://sajomall.co.kr/"
               target="_blank"
               className="slide-card"
-              style={{ backgroundImage: "url('/img/main_visual/mainvisual_1_sajomall.png')" }}
+              style={{ backgroundImage: "url('./img/main_visual/mainvisual_1_sajomall.png')" }}
               rel="noreferrer"
             >
               <div className="slide-text">
@@ -159,7 +159,7 @@ function MainVisual() {
               href="https://sajosfmall.co.kr/"
               target="_blank"
               className="slide-card"
-              style={{ backgroundImage: "url('/img/main_visual/mainvisual_2_sajosasimimall.png')" }}
+              style={{ backgroundImage: "url('./img/main_visual/mainvisual_2_sajosasimimall.png')" }}
               rel="noreferrer"
             >
               <div className="slide-text">
@@ -180,7 +180,7 @@ function MainVisual() {
               href="https://smartstore.naver.com/sajoiksan"
               target="_blank"
               className="slide-card"
-              style={{ backgroundImage: "url('/img/main_visual/mainvisual_3_sajogim.png')" }}
+              style={{ backgroundImage: "url('./img/main_visual/mainvisual_3_sajogim.png')" }}
               rel="noreferrer"
             >
               <div className="slide-text">
@@ -201,7 +201,7 @@ function MainVisual() {
               href="https://brand.naver.com/sajopet"
               target="_blank"
               className="slide-card"
-              style={{ backgroundImage: "url('/img/main_visual/mainvisual_4_sajopet.png')" }}
+              style={{ backgroundImage: "url('./img/main_visual/mainvisual_4_sajopet.png')" }}
               rel="noreferrer"
             >
               <div className="slide-text">
@@ -222,7 +222,7 @@ function MainVisual() {
               href="https://vo.la/qEHSgt"
               target="_blank"
               className="slide-card"
-              style={{ backgroundImage: "url('/img/main_visual/mainvisual_5_sikjajaemall.png')" }}
+              style={{ backgroundImage: "url('./img/main_visual/mainvisual_5_sikjajaemall.png')" }}
               rel="noreferrer"
             >
               <div className="slide-text">

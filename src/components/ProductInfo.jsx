@@ -241,7 +241,7 @@ function ProductInfo() {
                   </div>
                   <div className="prod-img">
                     <img
-                      src="/img/products/grid_visual/crabia_prod_thumb.png"
+                      src="./img/products/grid_visual/crabia_prod_thumb.png"
                       alt="크라비아"
                       style={{ width: "90%" }}
                     />
@@ -249,7 +249,7 @@ function ProductInfo() {
                   </div>
                   <div className="prod-img">
                     <img
-                      src="/img/products/grid_visual/royalcrab_prod_thumb.png"
+                      src="./img/products/grid_visual/royalcrab_prod_thumb.png"
                       alt="로얄크랩"
                       style={{ width: "95%" }}
                     />
@@ -257,7 +257,7 @@ function ProductInfo() {
                   </div>
                   <div className="prod-img">
                     <img
-                      src="/img/products/grid_visual/oyangmatsal_prod_thumb.png"
+                      src="./img/products/grid_visual/oyangmatsal_prod_thumb.png"
                       alt="오양맛살"
                     />
                     <div className="prod-overlay">오양맛살 상세 설명</div>

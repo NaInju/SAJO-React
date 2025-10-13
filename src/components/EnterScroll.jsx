@@ -142,7 +142,7 @@ function EnterScroll() {
       <div className="sajo-sticky">
         <div className="sajo-can">
           <img
-            src="/img/products/grid_visual/sajotuna_can_product_1000002397_detail_078.png"
+            src="./img/products/grid_visual/sajotuna_can_product_1000002397_detail_078.png"
             alt="사조참치"
           />
         </div>
