@@ -19,7 +19,7 @@ function ESG() {
           <div
             className="esg-card"
             style={{
-              backgroundImage: "url('./img/ESG/Environment-markus-spiske-GnxktpZHjcM-unsplash.jpg')",
+              backgroundImage: "url('../assets/img/ESG/Environment-markus-spiske-GnxktpZHjcM-unsplash.jpg')",
             }}
           >
             <div className="content">
@@ -35,7 +35,7 @@ function ESG() {
           <div
             className="esg-card"
             style={{
-              backgroundImage: "url('./img/ESG/Social-shane-rounce-DNkoNXQti3c-unsplash.jpg')",
+              backgroundImage: "url('../assets/img/ESG/Social-shane-rounce-DNkoNXQti3c-unsplash.jpg')",
             }}
           >
             <div className="content">
@@ -51,7 +51,7 @@ function ESG() {
           <div
             className="esg-card"
             style={{
-              backgroundImage: "url('./img/ESG/Governance-khampha-phimmachak-IRUcIOMOiEI-unsplash.jpg')",
+              backgroundImage: "url('../assets/img/ESG/Governance-khampha-phimmachak-IRUcIOMOiEI-unsplash.jpg')",
             }}
           >
             <div className="content">

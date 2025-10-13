@@ -70,7 +70,7 @@ function Financial() {
 
         <div className="grid-bg">
           <img
-            src="./img/fisherman_cassiano-psomas-C6aNNakl7ok-unsplash.jpg"
+            src="../assets/img/fisherman_cassiano-psomas-C6aNNakl7ok-unsplash.jpg"
             alt="어부 배경 이미지"
           />
         </div>

@@ -20,10 +20,10 @@ function ProductInfo() {
   const mobileInstance = useRef(null);
 
   const mobileBackgroundImages = [
-    './img/product_bg_1_m.jpg',
-    './img/product_bg_2_m.jpg',
-    './img/product_bg_3_m.jpg',
-    './img/product_bg_4_m.jpg',
+    '../assets/img/product_bg_1_m.jpg',
+    '../assets/img/product_bg_2_m.jpg',
+    '../assets/img/product_bg_3_m.jpg',
+    '../assets/img/product_bg_4_m.jpg',
   ];
 
   const updateMobileBackground = useCallback((index) => {
@@ -161,19 +161,19 @@ function ProductInfo() {
           <div className="swiper left-swiper" ref={leftSwiperRef}>
             <div className="swiper-wrapper">
               <div className="swiper-slide">
-                <img src="./img/products/pd_bg/sajo_tuna_product_bg.png" alt="" />
+                <img src="../assets/img/products/pd_bg/sajo_tuna_product_bg.png" alt="" />
               </div>
               <div className="swiper-slide">
-                <img src="./img/products/pd_bg/sajo_gim_product_bg.jpg" alt="" />
+                <img src="../assets/img/products/pd_bg/sajo_gim_product_bg.jpg" alt="" />
               </div>
               <div className="swiper-slide">
-                <img src="./img/products/pd_bg/sajo_royalcrab_product_bg.png" alt="" />
+                <img src="../assets/img/products/pd_bg/sajo_royalcrab_product_bg.png" alt="" />
               </div>
               <div className="swiper-slide">
-                <img src="./img/products/pd_bg/sajo_mandoo_product_bg.jpg" alt="" />
+                <img src="../assets/img/products/pd_bg/sajo_mandoo_product_bg.jpg" alt="" />
               </div>
               <div className="swiper-slide">
-                <img src="./img/products/pd_bg/sajo_tunasasimi_product_bg.jpg" alt="" />
+                <img src="../assets/img/products/pd_bg/sajo_tunasasimi_product_bg.jpg" alt="" />
               </div>
             </div>
             <div className="swiper-pagination"></div>
@@ -195,15 +195,15 @@ function ProductInfo() {
                     <p>페이지에 대한 설명을 써주세요</p>
                   </div>
                   <div className="prod-img">
-                    <img src="./img/products/grid_visual/sajotuna_can_product_1000002397_detail_078.png" alt="사조참치" />
+                    <img src="../assets/img/products/grid_visual/sajotuna_can_product_1000002397_detail_078.png" alt="사조참치" />
                     <div className="prod-overlay">사조참치 상세 설명</div>
                   </div>
                   <div className="prod-img">
-                    <img src="./img/products/grid_visual/bluetuna_can_product_1000002399_detail_054.png" alt="마일드참치" />
+                    <img src="../assets/img/products/grid_visual/bluetuna_can_product_1000002399_detail_054.png" alt="마일드참치" />
                     <div className="prod-overlay">마일드참치 상세 설명</div>
                   </div>
                   <div className="prod-img">
-                    <img src="./img/products/grid_visual/redtuna_can_product_1000002400_detail_012.png" alt="고추참치" />
+                    <img src="../assets/img/products/grid_visual/redtuna_can_product_1000002400_detail_012.png" alt="고추참치" />
                     <div className="prod-overlay">고추참치 상세 설명</div>
                   </div>
                 </div>
@@ -218,15 +218,15 @@ function ProductInfo() {
                     <p>페이지에 대한 설명을 써주세요</p>
                   </div>
                   <div className="prod-img">
-                    <img src="./img/products/grid_visual/basakdolgim_prod_thumb.png" alt="바삭돌김" />
+                    <img src="../assets/img/products/grid_visual/basakdolgim_prod_thumb.png" alt="바삭돌김" />
                     <div className="prod-overlay">사조바삭돌김 상세 설명</div>
                   </div>
                   <div className="prod-img">
-                    <img src="./img/products/grid_visual/chamgirumgim_prod_thumb.png" alt="참기름김" />
+                    <img src="../assets/img/products/grid_visual/chamgirumgim_prod_thumb.png" alt="참기름김" />
                     <div className="prod-overlay">참기름김 상세 설명</div>
                   </div>
                   <div className="prod-img">
-                    <img src="./img/products/grid_visual/thegosohanparaegim_prod_thumb.png" alt="파래김" style={{ width: "100%" }} />
+                    <img src="../assets/img/products/grid_visual/thegosohanparaegim_prod_thumb.png" alt="파래김" style={{ width: "100%" }} />
                     <div className="prod-overlay">파래김 상세 설명</div>
                   </div>
                 </div>
@@ -241,7 +241,7 @@ function ProductInfo() {
                   </div>
                   <div className="prod-img">
                     <img
-                      src="./img/products/grid_visual/crabia_prod_thumb.png"
+                      src="../assets/img/products/grid_visual/crabia_prod_thumb.png"
                       alt="크라비아"
                       style={{ width: "90%" }}
                     />
@@ -249,7 +249,7 @@ function ProductInfo() {
                   </div>
                   <div className="prod-img">
                     <img
-                      src="./img/products/grid_visual/royalcrab_prod_thumb.png"
+                      src="../assets/img/products/grid_visual/royalcrab_prod_thumb.png"
                       alt="로얄크랩"
                       style={{ width: "95%" }}
                     />
@@ -257,7 +257,7 @@ function ProductInfo() {
                   </div>
                   <div className="prod-img">
                     <img
-                      src="./img/products/grid_visual/oyangmatsal_prod_thumb.png"
+                      src="../assets/img/products/grid_visual/oyangmatsal_prod_thumb.png"
                       alt="오양맛살"
                     />
                     <div className="prod-overlay">오양맛살 상세 설명</div>
@@ -274,21 +274,21 @@ function ProductInfo() {
                   </div>
                   <div className="prod-img">
                     <img
-                      src="./img/products/grid_visual/gogisonmandu_prod_thumb.png"
+                      src="../assets/img/products/grid_visual/gogisonmandu_prod_thumb.png"
                       alt="고기손만두"
                     />
                     <div className="prod-overlay">고기손만두 상세 설명</div>
                   </div>
                   <div className="prod-img">
                     <img
-                      src="./img/products/grid_visual/gimchisonmandu_prod_thumb.png"
+                      src="../assets/img/products/grid_visual/gimchisonmandu_prod_thumb.png"
                       alt="김치손만두"
                     />
                     <div className="prod-overlay">김치손만두 상세 설명</div>
                   </div>
                   <div className="prod-img">
                     <img
-                      src="./img/products/grid_visual/gogiwanggyoja_prod_thumb.png"
+                      src="../assets/img/products/grid_visual/gogiwanggyoja_prod_thumb.png"
                       alt="고기왕교자"
                     />
                     <div className="prod-overlay">고기왕교자 상세 설명</div>
@@ -303,7 +303,7 @@ function ProductInfo() {
                     <p>페이지에 대한 설명을 써주세요</p>
                   </div>
                   <div className="prod-img">
-                    <img src="./img/products/grid_visual/sajotunasasimi_detail01.jpg" alt="눈다랑어 속살스테이크" />
+                    <img src="../assets/img/products/grid_visual/sajotunasasimi_detail01.jpg" alt="눈다랑어 속살스테이크" />
                     <div className="prod-overlay">
                       <strong className="prod-name">눈다랑어 속살스테이크</strong>
                       <p className="prod-desc">
@@ -314,7 +314,7 @@ function ProductInfo() {
                     </div>
                   </div>
                   <div className="prod-img">
-                    <img src="./img/products/grid_visual/sajotunasasimi_detail02.jpg" alt="눈다랑어 대뱃살" />
+                    <img src="../assets/img/products/grid_visual/sajotunasasimi_detail02.jpg" alt="눈다랑어 대뱃살" />
                     <div className="prod-overlay">
                       <strong className="prod-name">눈다랑어 대뱃살</strong>
                       <p className="prod-desc">
@@ -325,7 +325,7 @@ function ProductInfo() {
                     </div>
                   </div>
                   <div className="prod-img">
-                    <img src="./img/products/grid_visual/sajotunasasimi-detail03.jpg" alt="참다랑어 배꼽살" />
+                    <img src="../assets/img/products/grid_visual/sajotunasasimi-detail03.jpg" alt="참다랑어 배꼽살" />
                     <div className="prod-overlay">
                       <strong className="prod-name">참다랑어 배꼽살</strong>
                       <p className="prod-desc">

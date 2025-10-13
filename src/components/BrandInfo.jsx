@@ -55,55 +55,55 @@ function BrandInfo() {
               <div className="swiper-slide">
                 <a href="https://dr.sajo.co.kr/" target="_blank" rel="noreferrer">
                   <span className="blind">대림선어묵</span>
-                  <img src="./img/logo/daelilmsunfishcake_logo.png" alt="대림선어묵 로고" />
+                  <img src="../assets/img/logo/daelilmsunfishcake_logo.png" alt="대림선어묵 로고" />
                 </a>
               </div>
               <div className="swiper-slide">
                 <a href="#">
                   <span className="blind">사조참치</span>
-                  <img src="./img/logo/sajotuna_logo.png" alt="사조참치 로고" />
+                  <img src="../assets/img/logo/sajotuna_logo.png" alt="사조참치 로고" />
                 </a>
               </div>
               <div className="swiper-slide">
                 <a href="#">
                   <span className="blind">해표</span>
-                  <img src="./img/logo/haepyo_namuwiki.svg" alt="해표 로고" />
+                  <img src="../assets/img/logo/haepyo_namuwiki.svg" alt="해표 로고" />
                 </a>
               </div>
               <div className="swiper-slide">
                 <a href="https://sf.sajo.co.kr/" target="_blank" rel="noreferrer">
                   <span className="blind">사조회참치</span>
-                  <img src="./img/logo/sajotunasasimi_logo.png" alt="사조회 참치 로고" />
+                  <img src="../assets/img/logo/sajotunasasimi_logo.png" alt="사조회 참치 로고" />
                 </a>
               </div>
               <div className="swiper-slide">
                 <a href="https://sajomall.co.kr/goods/event_sale.php?sno=312" target="_blank" rel="noreferrer">
                   <span className="blind">대림선만두</span>
-                  <img src="./img/logo/daelimsun-green-logo.jpg" alt="대림선 로고" />
+                  <img src="../assets/img/logo/daelimsun-green-logo.jpg" alt="대림선 로고" />
                 </a>
               </div>
               <div className="swiper-slide">
                 <a href="https://won.sajo.co.kr/" target="_blank" rel="noreferrer">
                   <span className="blind">진품육</span>
-                  <img src="./img/logo/jinpoomyook_logo.png" alt="진품육 로고" />
+                  <img src="../assets/img/logo/jinpoomyook_logo.png" alt="진품육 로고" />
                 </a>
               </div>
               <div className="swiper-slide">
                 <a href="https://oy.sajo.co.kr/" target="_blank" rel="noreferrer">
                   <span className="blind">오양</span>
-                  <img src="./img/logo/oyang_logo.png" alt="오양 로고" />
+                  <img src="../assets/img/logo/oyang_logo.png" alt="오양 로고" />
                 </a>
               </div>
               <div className="swiper-slide">
                 <a href="https://do.sajo.co.kr/" target="_blank" rel="noreferrer">
                   <span className="blind">맥선</span>
-                  <img src="./img/logo/macksun_logo.png" alt="맥선 로고" />
+                  <img src="../assets/img/logo/macksun_logo.png" alt="맥선 로고" />
                 </a>
               </div>
               <div className="swiper-slide">
                 <a href="http://ewangmart.com/" target="_blank" rel="noreferrer">
                   <span className="blind">식자재왕</span>
-                  <img src="./img/logo/sikjajaewang_logo.png" alt="식사재왕 로고" />
+                  <img src="../assets/img/logo/sikjajaewang_logo.png" alt="식사재왕 로고" />
                 </a>
               </div>
             </div>
@@ -117,49 +117,49 @@ function BrandInfo() {
               <div className="swiper-slide">
                 <a href="https://www.sajomall.co.kr/goods/goods_list.php?cateCd=008" target="_blank" rel="noreferrer">
                   <span className="blind">옵티원</span>
-                  <img src="./img/logo/optione_logo.png" alt="옵티원 로고" />
+                  <img src="../assets/img/logo/optione_logo.png" alt="옵티원 로고" />
                 </a>
               </div>
               <div className="swiper-slide">
                 <a href="#">
                   <span className="blind">러브잇</span>
-                  <img src="./img/logo/loveat_logo_2.png" alt="러브잇 로고" />
+                  <img src="../assets/img/logo/loveat_logo_2.png" alt="러브잇 로고" />
                 </a>
               </div>
               <div className="swiper-slide">
                 <a href="#">
                   <span className="blind">캣푸드</span>
-                  <img src="./img/logo/catfood_logo.png" alt="캣푸드 로고" />
+                  <img src="../assets/img/logo/catfood_logo.png" alt="캣푸드 로고" />
                 </a>
               </div>
               <div className="swiper-slide">
                 <a href="#">
                   <span className="blind">투펫</span>
-                  <img src="./img/logo/topet_logo.png" alt="투펫 로고" />
+                  <img src="../assets/img/logo/topet_logo.png" alt="투펫 로고" />
                 </a>
               </div>
               <div className="swiper-slide">
                 <a href="#">
                   <span className="blind">페씨아</span>
-                  <img src="./img/logo/pessia_logo.png" alt="페씨아 로고" />
+                  <img src="../assets/img/logo/pessia_logo.png" alt="페씨아 로고" />
                 </a>
               </div>
               <div className="swiper-slide">
                 <a href="https://www.castlexseoul.com/" target="_blank" rel="noreferrer">
                   <span className="blind">캐슬렉스 서울</span>
-                  <img src="./img/logo/castlex_seoul_logo.png" alt="캐슬렉스 서울 로고" />
+                  <img src="../assets/img/logo/castlex_seoul_logo.png" alt="캐슬렉스 서울 로고" />
                 </a>
               </div>
               <div className="swiper-slide">
                 <a href="http://www.castlex-iseongdae.com/" target="_blank" rel="noreferrer">
                   <span className="blind">캐슬렉스 이성대</span>
-                  <img src="./img/logo/castlex_isungdae_logo.png" alt="캐슬렉스 이성대 로고" />
+                  <img src="../assets/img/logo/castlex_isungdae_logo.png" alt="캐슬렉스 이성대 로고" />
                 </a>
               </div>
               <div className="swiper-slide">
                 <a href="https://www.castlexjj.com/" target="_blank" rel="noreferrer">
                   <span className="blind">캐슬렉스 제주</span>
-                  <img src="./img/logo/castlex_jeju_logo.png" alt="캐슬렉스 제주 로고" />
+                  <img src="../assets/img/logo/castlex_jeju_logo.png" alt="캐슬렉스 제주 로고" />
                 </a>
               </div>
             </div>
