@@ -37,7 +37,7 @@ function News() {
   const newsItems = [
     {
       link: "https://www.sajo.co.kr/prcenter/sajostoryView.asp?gi=2&idx=3044&board_group_idx=3",
-      img: "../assets/img/news/news1_checking_0186.jpg",
+      img: "./img/news/news1_checking_0186.jpg",
       cate: "푸디스트",
       title: "장마철 대비 전 사업장 안전 점검 실시",
       desc:
@@ -46,7 +46,7 @@ function News() {
     },
     {
       link: "https://www.sajo.co.kr/prcenter/sajostoryView.asp?gi=2&idx=3011&board_group_idx=3",
-      img: "../assets/img/news/news2_restaurant.jpg",
+      img: "./img/news/news2_restaurant.jpg",
       cate: "푸디스트",
       title: "“구내식당이 가성비 맛집”…상반기 위탁급식 식수 25% 증가",
       desc:
@@ -55,7 +55,7 @@ function News() {
     },
     {
       link: "https://www.sajo.co.kr/prcenter/sajostoryView.asp?gi=2&idx=3010&board_group_idx=3",
-      img: "../assets/img/news/news3_dumpling_dr020sfs031.jpg",
+      img: "./img/news/news3_dumpling_dr020sfs031.jpg",
       cate: "사조대림",
       title: "이색 원물 만두 2종 출시… “통째로 넣었다”",
       desc:
