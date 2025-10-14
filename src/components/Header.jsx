@@ -157,8 +157,8 @@ function Header() {
           </ul>
         </nav>
 
-        {/* 우측 lang-wrap */}
         <div className="header-right">
+          {/* 우측 lang-wrap */}
           <div className="lang-wrap" ref={langWrapRef}>
             <button className="lang-toggle" ref={langToggleRef}>
               KOR <i className="ri-arrow-down-s-fill" ref={langIconRef}></i>
