@@ -590,9 +590,17 @@ body {
 }
 .product-section .swiper-pagination {
   z-index: 10;position: absolute;
-  left: 49%;transform: translate(-50%);
+  left: 23vw;transform: translate(-50%);
   bottom: 4.4rem;
 }
+@media (max-width: 1000px) {
+  .product-section .swiper-pagination {left: 22vw;}
+}
+@media (max-width: 850px) {
+  .product-section .swiper-pagination {left: 21vw;}
+}
+
+
 .product-section .swiper-pagination-bullet {
   background-color: #ffffff;width: 8px;height: 8px;
 }
@@ -685,7 +693,7 @@ body {
 .mobile-swiper-controls {display: none;}
 
 
-@media (max-width: 850px) {
+@media (max-width: 700px) {
   .product-section {flex-direction: column;height: auto;padding: 0 2rem;}
   .product-section .left-swiper {display: none;}
   .product-section .right-swiper {
