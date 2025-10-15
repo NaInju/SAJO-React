@@ -209,37 +209,29 @@ body {
 /* ============ 모바일용 GNB 슬라이드 ============ */
 .gnb-toggle {
   display: none;
-  font-size: 2.4rem;
-  background: none;
-  border: none;
-  cursor: pointer;
+  font-size: 2.4rem;color: #555;
+  background: none;border: none;cursor: pointer;
   margin-left: 1.5rem;
-  color: #555;
 }
 
 .gnb-close {
-  background: none;
-  border: none;
-  font-size: 2.4rem;
+  z-index: 999;color: #555;
+  background: none;border: none;
+  font-size: 2rem;
   padding: 2rem;
   cursor: pointer;
   align-self: flex-end;
 }
 
 .gnb-overlay {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
+  z-index: 998;position: fixed;display: none;
+  top: 0;left: 0;
+  width: 100vw;height: 100vh;
   background: rgba(0, 0, 0, 0.5);
-  z-index: 998;
 }
 
 .gnb-slide {
   display: none;z-index: 999;
-  flex-direction: column;
   position: fixed;
   top: 0;right: 0;padding: 2rem;
   height: 100vh;width: 80vw;
@@ -248,15 +240,17 @@ body {
   overflow-y: auto;
 }
 
-.gnb-slide.active {display: flex;}
-
+.gnb-slide.active {display: flex;flex-direction: column;justify-content: flex-start;}
+.gnb-slide a {color: var(--main-navy);}
+/* .gnb-slide .dep1 a {margin: 0;padding: 0;} */
+.gnb-slide .dep2 {margin: 0;margin-bottom: 1.6vw;}
 .gnb-slide .dep1 li {
-  font-size: 2rem;font-weight: 600;line-height: 5rem;color: #02164E;
-  padding-left: 2rem;
+  font-size: clamp(1.4rem,4vw,2rem);font-weight: 600;line-height: 5rem;color: #02164E;
+  padding-left: 2rem;text-align: left;
 }
 .gnb-slide .dep2 li {
-  font-size: 1.6rem;font-weight: 400; line-height: 2rem;
-  color: #333; margin-bottom: 1rem;transform: translateX(-10%);
+  font-size: clamp(1rem,3.2vw,1.6rem);font-weight: 400; line-height: 2rem;
+  color: #333; margin-bottom: 1rem;padding-left: 0.5rem;
 }
 
 .gnb-overlay.active {display: block;}
@@ -291,7 +285,7 @@ body {
   .gnb-slide ul.dep1 {flex-direction: column;gap: 2rem;}
   .gnb-slide .dep2 {
     display: none;flex-direction: column;
-    margin-top: 1rem;padding-left: 1.5rem;
+    margin-top: 0.4rem;padding-left: 1.5rem;
   }
   .gnb-slide .dep1 > li.open .dep2 {display: flex;}
 }
@@ -685,7 +679,7 @@ body {
 .ri-pause-circle-fill, .ri-play-circle-fill {font-size: 1.6rem;}
 
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
   .product-section {flex-direction: column;height: auto;padding: 0 2rem;}
   .product-section .left-swiper {display: none;}
   .product-section .right-swiper {
@@ -761,13 +755,13 @@ body {
     display: flex;box-sizing: border-box;
     justify-content: center;align-items: center;
     gap: 0.3rem;padding: 1px;
-    flex-shrink: 1;max-width: 20%; overflow: hidden;
+    flex-shrink: 0;max-width: 20%; overflow: hidden;
     /* border: 1px solid red; */
   }
 
   .swiper-pagination-bullet {
     /* position: static !important; */
-    width: 1.5vw;height: 1.5vw;
+    width: 8px;height: 8px;
     display: inline-block;
     background-color: #777;
     opacity: 0.4;
@@ -792,6 +786,9 @@ body {
 
 }
 
+@media (max-width: 500px) {
+  .swiper-pagination-bullet {width: 1.5vw;height: 1.5vw;}
+}
 
 /** ============================ FINANCIAL-SECTION =============================== **/
 

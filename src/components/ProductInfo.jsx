@@ -171,7 +171,7 @@ function ProductInfo() {
   };
 
   const handleResponsiveSwiper = useCallback(() => {
-    const isMobile = window.innerWidth <= 700;
+    const isMobile = window.innerWidth <= 850;
 
     if (isMobile) {
       destroyDesktopSwipers();
