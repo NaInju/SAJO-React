@@ -664,7 +664,7 @@ body {
 .prod-name, .prod-desc {display: none;}
 .prod-img:hover .prod-overlay {opacity: 1;}
 .prod-img:hover .prod-overlay .prod-name {display: inline;font-size: clamp(1rem, 1.3vw, 2rem);line-height: 2.5vw;}
-.prod-img:hover .prod-overlay .prod-desc {display: inline;font-size: clamp(0.3rem, 1.1vw, 1.4rem);line-height: 2vw;}
+.prod-img:hover .prod-overlay .prod-desc {display: inline;font-size: clamp(0.3rem, 1vw, 1.4rem);line-height: 2vw;}
 
 .mobile-swiper-controls {display: none;}
 
