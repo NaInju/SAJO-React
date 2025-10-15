@@ -249,7 +249,7 @@ function ProductInfo() {
                   <div className="prod-text">
                     <div className='prod-text-box'>
                       <strong>사조참치</strong>
-                      <p>자연의 신선함을 담은 대한민국 대표 참치 브랜드.<br/>
+                      <p>자연의 신선함을 담은<br/>대한민국 대표 참치 브랜드.<br/>
                       신뢰할 수 있는 품질로<br/>오랜 시간 사랑받고 있습니다.</p>
                     </div>
                   </div>
