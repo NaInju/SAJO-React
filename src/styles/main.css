@@ -655,7 +655,7 @@ body {
 .prod-overlay {
   position: absolute;top: 0;left: 0;
   display: flex;flex-direction: column;
-  width: 100%;height: 100%;padding: 2rem;
+  width: 100%;height: 100%;padding: 1rem;
   background: rgba(0, 0, 0, 0.5);color: #fff;opacity: 0;
   display: flex;align-items: center;justify-content: center;
   transition: opacity 0.3s ease;
@@ -663,8 +663,8 @@ body {
 }
 .prod-name, .prod-desc {display: none;}
 .prod-img:hover .prod-overlay {opacity: 1;}
-.prod-img:hover .prod-overlay .prod-name {display: inline;font-size: 2rem;line-height: 4rem;}
-.prod-img:hover .prod-overlay .prod-desc {display: inline;font-size: 1.3rem;}
+.prod-img:hover .prod-overlay .prod-name {display: inline;font-size: clamp(1rem, 2.5vw, 2rem);line-height: 4rem;}
+.prod-img:hover .prod-overlay .prod-desc {display: inline;font-size: clamp(0.3rem, 2vw, 1.4rem);line-height: 3vw;;}
 
 .mobile-swiper-controls {display: none;}
 
