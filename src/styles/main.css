@@ -549,14 +549,14 @@ body {
 .product-section {
   display: flex;flex-direction: row;
   justify-content: center;align-items: center;
-  height: 100vh;width: 100%;
+  width: 100%;height: 60vw;
   overflow: hidden;
 }
 
 /* 왼쪽 Swiper */
 .product-section .left-swiper {
   position: relative;
-  width: 45%;height: 100vh;overflow: hidden;
+  width: 45%;height: 100%;overflow: hidden;
 }
 
 .product-section .left-swiper img {
@@ -590,19 +590,41 @@ body {
 }
 .product-section .swiper-pagination {
   z-index: 10;position: absolute;
-  bottom: 2rem;left: 50%;transform: translateX(-50%);
+  left: 49%;transform: translate(-50%);
+  bottom: 4.4rem;
 }
-.swiper-pagination-bullet-active {
+.product-section .swiper-pagination-bullet {
+  background-color: #ffffff;width: 8px;height: 8px;
+}
+.product-section .swiper-pagination-bullet-active {
   background-color: var(--main-navy); /* 활성 불릿 색 */
 }
 
-.product-section .swiper-button-prev,
-.product-section .swiper-button-next {
+.left-swiper .swiper-autoplay-toggle {
+  /* border: 1px solid red; */
+  position: absolute;z-index: 11;
+  bottom: 4rem;right: 16vw; /* 원하는 위치로 */
+  background: none;width: 2px;height: 1px;padding: 1rem;
+  cursor: pointer;color: #fff;font-size: 28px;margin-left: 8px;
+  display: inline-flex;align-items: center;justify-content: center;
+  transition: color 0.2s ease;
+  border: none;
+}
+
+.left-swiper .swiper-autoplay-toggle:hover {
+  color: var(--main-navy); /* 포인트 색상 */
+}
+.ri-pause-circle-fill, .ri-play-circle-fill {font-size: 1.6rem;}
+
+.left-swiper .swiper-button-prev,
+.left-swiper .swiper-button-next {
   z-index: 10;position: absolute;
   top: 50%;color: #fff;transform: translateY(-50%);
 }
-.product-section .swiper-button-prev {left: 3rem;}
-.product-section .swiper-button-next {right: 3rem;}
+.left-swiper .swiper-button-prev::after,
+.left-swiper .swiper-button-next::after {font-size: 3.8vw;}
+.left-swiper .swiper-button-prev {left: 3rem;}
+.left-swiper .swiper-button-next {right: 3rem;}
 
 /* 제품 설명 + 이미지 그리드 */
 .prod-grid {
@@ -661,22 +683,6 @@ body {
 .prod-img:hover .prod-overlay .prod-desc {display: inline;font-size: clamp(0.3rem, 1vw, 1.4rem);line-height: 2vw;}
 
 .mobile-swiper-controls {display: none;}
-
-.left-swiper .swiper-autoplay-toggle {
-  /* border: 1px solid red; */
-  position: absolute;z-index: 11;
-  bottom: 1.5rem;right: 17vw; /* 원하는 위치로 */
-  background: none;width: 2px;height: 1px;padding: 1rem;
-  cursor: pointer;color: #fff;font-size: 28px;margin-left: 8px;
-  display: inline-flex;align-items: center;justify-content: center;
-  transition: color 0.2s ease;
-  border: none;
-}
-
-.left-swiper .swiper-autoplay-toggle:hover {
-  color: var(--main-navy); /* 포인트 색상 */
-}
-.ri-pause-circle-fill, .ri-play-circle-fill {font-size: 1.6rem;}
 
 
 @media (max-width: 850px) {
@@ -759,7 +765,7 @@ body {
     /* border: 1px solid red; */
   }
 
-  .swiper-pagination-bullet {
+  .mobile-swiper-controls .swiper-pagination-bullet {
     /* position: static !important; */
     width: 8px;height: 8px;
     display: inline-block;
@@ -768,7 +774,7 @@ body {
     margin: 0;flex-shrink: 0;
   }
 
-  .swiper-pagination-bullet-active {
+  .mobile-swiper-controls .swiper-pagination-bullet-active {
     opacity: 1;
   }
 
@@ -787,7 +793,7 @@ body {
 }
 
 @media (max-width: 500px) {
-  .swiper-pagination-bullet {width: 1.5vw;height: 1.5vw;}
+  .mobile-swiper-controls.swiper-pagination-bullet {width: 1.5vw;height: 1.5vw;}
 }
 
 /** ============================ FINANCIAL-SECTION =============================== **/
