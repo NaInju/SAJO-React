@@ -224,15 +224,15 @@ function ProductInfo() {
               </div>
             </div>
             <div className="swiper-pagination"></div>
-            <button
-              type="button"
-              className="swiper-autoplay-toggle"
-              aria-pressed="false"
-              aria-label="일시정지"
-              title="일시정지"
-            >
-              <i className="ri-pause-circle-fill"></i>
-            </button>
+              <button
+                type="button"
+                className="swiper-autoplay-toggle"
+                aria-pressed="false"
+                aria-label="일시정지"
+                title="일시정지"
+              >
+                <i className="ri-pause-circle-fill"></i>
+              </button>
             <div className="swiper-button-prev"></div>
             <div className="swiper-button-next"></div>
           </div>
@@ -247,9 +247,11 @@ function ProductInfo() {
               <div className="swiper-slide">
                 <div className="prod-grid">
                   <div className="prod-text">
-                    <strong>사조참치</strong>
-                    <p>자연의 신선함을 담은 대한민국 대표 참치 브랜드.<br/>
-                    신뢰할 수 있는 품질로 오랜 시간 사랑받고 있습니다.</p>
+                    <div className='prod-text-box'>
+                      <strong>사조참치</strong>
+                      <p>자연의 신선함을 담은 대한민국 대표 참치 브랜드.<br/>
+                      신뢰할 수 있는 품질로<br/>오랜 시간 사랑받고 있습니다.</p>
+                    </div>
                   </div>
                   <div className="prod-img">
                     <img src="./img/products/grid_visual/sajotuna_can_product_1000002397_detail_078.png" alt="사조참치" />
@@ -277,11 +279,13 @@ function ProductInfo() {
               <div className="swiper-slide">
                 <div className="prod-grid">
                   <div className="prod-text">
-                    <strong>해표</strong>
-                    <p>
-                      깨끗한 바다의 맛과 정직한 품질로 사랑받는 브랜드.<br/>
-                      언제나 신선하고 건강한 식탁을 만듭니다.
-                    </p>
+                    <div className='prod-text-box'>
+                      <strong>해표</strong>
+                      <p>
+                        깨끗한 바다의 맛과<br/>정직한 품질로 사랑받는 브랜드.<br/>
+                        언제나 신선하고<br/>건강한 식탁을 만듭니다.
+                      </p>
+                    </div>
                   </div>
                   <div className="prod-img">
                     <img src="./img/products/grid_visual/basakdolgim_prod_thumb.png" alt="바삭돌김" />
@@ -308,11 +312,13 @@ function ProductInfo() {
               <div className="swiper-slide">
                 <div className="prod-grid">
                   <div className="prod-text">
-                    <strong>대림선 맛살</strong>
-                    <p>
-                      신선한 해산물의 맛을 담은 종합 수산 브랜드.<br/>
-                      언제나 믿을 수 있는 품질과 풍부한 맛을 제공합니다.
-                    </p>
+                    <div className='prod-text-box'>
+                      <strong>대림선 맛살</strong>
+                      <p>
+                        신선한 해산물의 맛을 담은<br/>종합 수산 브랜드.<br/>
+                        언제나 믿을 수 있는 품질과<br/>풍부한 맛을 제공합니다.
+                      </p>
+                    </div>
                   </div>
                   <div className="prod-img">
                     <img
@@ -353,9 +359,11 @@ function ProductInfo() {
               <div className="swiper-slide">
                 <div className="prod-grid">
                   <div className="prod-text">
-                    <strong>대림선 만두</strong>
-                    <p>정성 가득한 재료와 맛으로 사랑받는 종합식품 브랜드.<br/>
-                      든든한 한 끼부터 간편한 간식까지 함께합니다.</p>
+                    <div className='prod-text-box'>
+                      <strong>대림선 만두</strong>
+                      <p>정성 가득한 재료와 맛으로<br/>사랑받는 종합식품 브랜드.<br/>
+                        든든한 한 끼부터<br/>간편한 간식까지 함께합니다.</p>
+                    </div>
                   </div>
                   <div className="prod-img">
                     <img
@@ -393,11 +401,13 @@ function ProductInfo() {
               <div className="swiper-slide">
                 <div className="prod-grid">
                   <div className="prod-text">
-                    <strong>사조회참치</strong>
-                    <p>
-                      바다의 신선함을 그대로 담은 프리미엄 참치 브랜드.<br/>
-                      깊고 풍부한 맛으로 한층 특별한 식탁을 완성합니다.
-                    </p>
+                    <div className='prod-text-box'>
+                      <strong>사조회참치</strong>
+                      <p>
+                        바다의 신선함을 그대로 담은<br/>프리미엄 참치 브랜드.<br/>
+                        깊고 풍부한 맛으로<br/>한층 특별한 식탁을 완성합니다.
+                      </p>
+                    </div>
                   </div>
                   <div className="prod-img">
                     <img src="./img/products/grid_visual/sajotunasasimi_detail01.jpg" alt="눈다랑어 속살스테이크" />

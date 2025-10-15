@@ -57,7 +57,8 @@ body {
   padding: 0 5rem;padding-bottom: 0.5rem;
   height: 100%;display: flex;
   align-items: center;justify-content: space-between;
-  position: relative;overflow: hidden;
+  position: relative;
+  /* overflow: hidden; */
   /* border: 1px solid red; */
 }
 
@@ -152,7 +153,7 @@ body {
 
 /* ========== LANG WRAP ========== */
 .lang-wrap {
-  position: relative;
+  position: relative;z-index: 15;
   margin-top: 1rem;
   /* border: 3px solid red; */
 }
@@ -617,13 +618,21 @@ body {
 }
 .prod-text {
   grid-column: span 1;
-  display: flex;flex-direction: column;
-  padding: 3rem;gap: 2rem;border-radius: 1.2rem;
-  /* background: #f3f3f3; */
+  /* width: 20vw; */
+  aspect-ratio: 1 / 1;
+  padding: 2.7rem;border-radius: 1.2rem;
+  /* border: 1px solid red; */
 }
 
-.product-section .right-swiper strong {font-size: 3rem;font-weight: 600;}
-.product-section .right-swiper p {font-size: 1.4rem;line-height: 3rem;}
+.prod-text-box {
+  /* border: 1px solid blue; */
+  width: 100%;height: 100%;
+  display: flex;flex-direction: column;
+  justify-content: center;align-items: center;
+  overflow: hidden;gap: 1.3rem;
+}
+.prod-text strong {font-size: clamp(1.6rem, 1.8vw, 2.4rem);font-weight: 600;}
+.prod-text p {font-size: clamp(0.3rem, 1.2vw, 1.4rem);line-height: 2.3vw;}
 
 /* 제품 이미지 */
 .prod-img {
@@ -661,12 +670,12 @@ body {
 .left-swiper .swiper-autoplay-toggle {
   /* border: 1px solid red; */
   position: absolute;z-index: 11;
-  bottom: 0.8rem;right: 15.5vw; /* 원하는 위치로 */
-  background: none;width: 2px;height: 1px;
-  border: none;
+  bottom: 1.5rem;right: 17vw; /* 원하는 위치로 */
+  background: none;width: 2px;height: 1px;padding: 1rem;
   cursor: pointer;color: #fff;font-size: 28px;margin-left: 8px;
   display: inline-flex;align-items: center;justify-content: center;
   transition: color 0.2s ease;
+  border: none;
 }
 
 .left-swiper .swiper-autoplay-toggle:hover {
@@ -675,7 +684,7 @@ body {
 .ri-pause-circle-fill, .ri-play-circle-fill {font-size: 1.6rem;}
 
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .product-section {flex-direction: column;height: auto;padding: 0 2rem;}
   .product-section .left-swiper {display: none;}
   .product-section .right-swiper {
@@ -700,9 +709,14 @@ body {
 
   .prod-text {
     grid-column: span 1;
+    /* width: 42vw; */
+    aspect-ratio: 1 / 1;
     display: flex;flex-direction: column;
-    padding: 2.5rem;text-align: center;
+    padding: 2.4vw;text-align: center;
   }
+
+  .prod-text strong {font-size: clamp(1rem, 4.6vw, 2.4rem);font-weight: 600;}
+  .prod-text p {font-size: clamp(0.3rem, 2.6vw, 1.4rem);line-height: 3.8vw;}
 
   .prod-img {
     width: 100%;
